@@ -7,5 +7,5 @@ import com.example.hoossenlenovo.assignment6.designPatterns.domain.OverallFitnes
  */
 public interface OverallFitnessFactory {
 
-    OverallFitness createLogin(Long id,int runningKm, int skippingRopeAmount);
+    OverallFitness createLogin(int runningKm, int skippingRopeAmount);
 }

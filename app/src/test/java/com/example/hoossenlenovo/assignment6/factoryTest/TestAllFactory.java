@@ -1,5 +1,6 @@
 package com.example.hoossenlenovo.assignment6.factoryTest;
 
+
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -13,7 +14,9 @@ import org.junit.runners.Suite;
         LoginTest.class,
         DateOfBirthTest.class,
         UserNameTest.class,
-        MuscleGainTest.class
+        MuscleGainTest.class,
+        FitnessBioTest.class,
+        OverallFitnessTest.class
 })
 
 public class TestAllFactory {
