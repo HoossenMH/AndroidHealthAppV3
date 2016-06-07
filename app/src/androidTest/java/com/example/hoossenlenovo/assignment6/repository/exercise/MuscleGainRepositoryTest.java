@@ -1,4 +1,4 @@
-package com.example.hoossenlenovo.assignment6.repository.User;
+package com.example.hoossenlenovo.assignment6.repository.exercise;
 
 import android.test.AndroidTestCase;
 

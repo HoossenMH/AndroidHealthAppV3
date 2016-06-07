@@ -12,7 +12,7 @@ public class OverallFitness extends Exercise
     public OverallFitness() {
     }
 
-    public OverallFitness(int runningKm, int skippingRopeAmount) {
+    public OverallFitness(Long id,int runningKm, int skippingRopeAmount) {
         this.runningKm = runningKm;
         this.skippingRopeAmount = skippingRopeAmount;
     }

@@ -1,4 +1,4 @@
-package com.example.hoossenlenovo.assignment6.repository.User;
+package com.example.hoossenlenovo.assignment6.repository.exercise;
 
 import android.test.AndroidTestCase;
 
@@ -46,7 +46,7 @@ public class OverallFitnessRepositoryTest extends AndroidTestCase
                 .build();
         repo.update(updateEntity);
         OverallFitness newEntity = repo.findById(id);
-        Assert.assertEquals(TAG+ " UPDATE ENTITY",5,newEntity.getRunningKm());
+        Assert.assertEquals(TAG+ " UPDATE ENTITY",5,newEntity.getRunnningKm());
 
         // DELETE ENTITY
         repo.delete(updateEntity);
